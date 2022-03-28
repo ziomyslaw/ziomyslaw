@@ -50,6 +50,12 @@
  - [Netlify cms](https://www.netlifycms.org/)
  - [Contentful](https://www.contentful.com/)
  - [Buttercms](https://buttercms.com/)
+
+### CSS Animation Libraries
+- [animista](https://animista.net/)
+- [animate](https://animate.style/)
+- [css animation](http://cssanimation.io/)
+
 ```
 npm install --save bson 
 import { ObjectID } from 'bson';
