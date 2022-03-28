@@ -36,6 +36,20 @@
 
 ### ES6
  - Jest, Cypress
+
+### Dokumentation
+ - [docsify](https://docsify.js.org/)
+
+### CMS
+ - [Strapi](https://strapi.io/)
+ - [directus](https://directus.io/)
+ - [Storyblok](https://www.storyblok.com/)
+ - [DatoCMS](https://www.datocms.com/)
+ - [Sanity](https://www.sanity.io/)
+ - [Prismic](https://prismic.io/)
+ - [Netlify cms](https://www.netlifycms.org/)
+ - [Contentful](https://www.contentful.com/)
+ - [Buttercms](https://buttercms.com/)
 ```
 npm install --save bson 
 import { ObjectID } from 'bson';
