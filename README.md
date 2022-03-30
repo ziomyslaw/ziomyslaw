@@ -56,6 +56,18 @@
 - [animate](https://animate.style/)
 - [css animation](http://cssanimation.io/)
 
+### S3 Object Storage
+- [Minio](https://min.io/)
+- [OpenStack.NetSwiftClient](https://github.com/JeanCollas/OpenStack.NetSwiftClient)
+- [ovh/csharp-ovh](https://github.com/ovh/csharp-ovh)
+- [node ovh objectstorage](https://github.com/dimer47/node-ovh-objectstorage)
+
+### React
+ - https://github.com/sergiodxa/remix-utils
+
+### Bootstrap
+ - https://freefrontend.com/bootstrap-code-examples/
+
 ```
 npm install --save bson 
 import { ObjectID } from 'bson';
