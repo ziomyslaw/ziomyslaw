@@ -27,6 +27,8 @@
 ### DevOps
  - [ASP.NET on linux](https://www.meziantou.net/publishing-an-asp-net-core-website-to-a-linux-host.htm)
  - [Terraform](https://www.terraform.io/)
+ - [Pulumi](https://www.pulumi.com/)
+ - Kubernetes
  - [Monitoring - Fluentbit](https://docs.fluentbit.io/manual/administration/monitoring)
  - [ELK Elastic Search Lostash Kibana](https://www.elastic.co/what-is/elk-stack)
  - [RDP Manager](https://remotedesktopmanager.com/)
