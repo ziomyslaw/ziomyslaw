@@ -70,6 +70,11 @@
 ### Bootstrap
  - https://freefrontend.com/bootstrap-code-examples/
 
+### Projects & Tools
+- [DNC-DShop](https://github.com/devmentors/DNC-DShop)
+- [discourse](https://github.com/discourse/discourse)
+- https://react.semantic-ui.com/
+
 ```
 npm install --save bson 
 import { ObjectID } from 'bson';
