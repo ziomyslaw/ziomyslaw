@@ -17,6 +17,24 @@
 - [Login - Jwt. Identity, Facebook](https://fullstackmark.com/post/13/jwt-authentication-with-aspnet-core-2-web-api-angular-5-net-core-identity-and-facebook-login)
 - [SimplCommerce](https://github.com/simplcommerce/SimplCommerce/blob/master/src/Modules/SimplCommerce.Module.Orders/Services/OrderService.cs)
 
+#### Serializers
+##### Complex class
+
+| Syntax | Time [ms] | Size [bytes] |
+| --- | ----------- |----------- |
+| [Binary Formatter](https://github.com/dotnet/standard/System.Runtime.Serialization.Formatters.Binary.cs) | 4282 |1400 |
+| [NetSerializer](https://github.com/tomba/netserializer) | 204 |106 |
+| [SimpleBinaryEncoding](https://github.com/real-logic/simple-binary-encoding) | 727 |58 |
+
+##### POCO
+
+| Syntax | Time [ms] | Size [bytes] |
+| --- | ----------- |----------- |
+| [Binary Formatter](https://github.com/dotnet/standard/System.Runtime.Serialization.Formatters.Binary.cs) | 3829 |1132 |
+| [NetSerializer](https://github.com/tomba/netserializer) | 115 |18 |
+| [MessagePack](https://github.com/neuecc/MessagePack-CSharp) | 463 |46 |
+
+
 #### API Gateway
 - [Azure API management](https://azure.microsoft.com/en-us/services/api-management)
 - [kong](https://konghq.com/kong/)
