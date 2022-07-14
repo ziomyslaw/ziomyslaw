@@ -84,6 +84,8 @@
 
 ### React
  - https://github.com/sergiodxa/remix-utils
+ - https://github.com/plouc/nivo - dataviz components
+ - https://github.com/potree/potree - WebGL point cloud viewer for large datasets
 
 ### Bootstrap
  - https://freefrontend.com/bootstrap-code-examples/
