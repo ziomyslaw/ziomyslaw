@@ -9,7 +9,7 @@
 - Redis
 - Elastic
 - [RavenDB - ACID NoSQL Document Database](https://ravendb.net/)
-- [Marten - .NET Transactional Document DB and Event Store on PostgreSQL](https://martendb.io/)
+- [Marten - .NET Transactional Document DB and Event Store on PostgreSQL](https://martendb.io/) 
 - InfluxDB
 - PostgreSQL
 - tspdb [prerequisites](https://tspdb.mit.edu/installation/#prerequisites-postgresql-and-plpython_1)
@@ -19,12 +19,14 @@
 ### Message Broker
  - Kafka (+ ActiveMQ, Solice) 
  - RabbitMQ via [EasyNetQ](https://easynetq.com/), [MassTransit](https://masstransit-project.com)
+ - Azure Service Bus
 
 ### Libs
  - Swagger
- - Scrutor
+ - [Scrutor](https://github.com/khellang/Scrutor)
  - [Flurl](https://flurl.dev/)
  - AutoMapper
+ - RestSharp, [Refit](https://github.com/reactiveui/refit)
 
 ### Test
  - FluentAssertions
@@ -39,6 +41,7 @@
  - Playwright `pwsh bin\Debug\netX\playwright.ps1 install`
 
 ### .Net
+- https://benfoster.io/blog/mvc-to-minimal-apis-aspnet-6/
 - [record](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record)
 - [property pattern](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#property-pattern)
 - [integration tests in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-5.0)
@@ -94,7 +97,7 @@
 - GraphQ [Hasura](https://hasura.io/), [Apollo] (https://www.apollographql.com/docs/react/data/subscriptions/)
 - axios, fetch - http client
 - prisma - ORM
-- Bootstrap, Material UI, Tailwind, Styled-Components
+- Bootstrap, Material UI, Semantic-UI, Tailwind, Styled-Components
 - Saleor/Medusa, Strapi
 
 ### JavaScript Test
@@ -119,7 +122,7 @@
  - [Buttercms](https://buttercms.com/)
 
 ### CMS - e-commerce
-- Saleor
+- Saleor - https://saleor.io/blog/combining-headless-architectures-with-saleor-and-strapi-147/
 - Medusa
 
 ### CSS Animation Libraries CSS/SCSS/Less
