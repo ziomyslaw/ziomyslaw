@@ -10,10 +10,33 @@
 - Elastic
 - [RavenDB - ACID NoSQL Document Database](https://ravendb.net/)
 - [Marten - .NET Transactional Document DB and Event Store on PostgreSQL](https://martendb.io/)
+- InfluxDB
+- PostgreSQL
+- tspdb
+- cosmos db emulator
+
 
 ### Message Broker
- - kafka, 
+ - Kafka (+ ActiveMQ, Solice) 
  - RabbitMQ via [EasyNetQ](https://easynetq.com/), [MassTransit](https://masstransit-project.com)
+
+### Libs
+ - Swagger
+ - Scrutor
+ - [Flurl](https://flurl.dev/)
+ - AutoMapper
+
+### Test
+ - FluentAssertions
+ - NSubstitute
+ - Moq 
+ - FakeItEasy
+ - AutoFixture
+ - XUnit 
+ - NUnit 
+ - MSTest 2
+ - Selenium, 
+ - Playwright 
 
 ### .Net
 - [record](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record)
@@ -63,10 +86,26 @@
 - [Account Settings](https://dribbble.com/shots/5434357-Profile-Page-UI-Design)
 - [Contact us Feedback](https://dribbble.com/shots/6500013-Message-Delivery-Confirmation-UI-Design)
 
-### ES6
- - Jest, Cypress
+### JavaScript, TypeScript, HTML5, CSS3/LESS/SCSS
+- Angular RxJs
+- React/Next.js
+- Node.js/NestJs
+- Meteor
+- GraphQ
+- axios
+- Apollo-Client
+- prisma - ORM
+- Bootstrap, Material UI, Tailwind, Styled-Components
+- Saleor/Medusa, Strapi
 
-### Dokumentation
+### JavaScript Test
+ - Jest, 
+ - Cypress
+ - Nightmare
+ - Protractor - end-to-end test framework for Angular
+ - Jasmine/Karma ( Angular test runner) -> Jest (replaces Karma)
+
+### Documentation
  - [docsify](https://docsify.js.org/)
 
 ### CMS
@@ -80,7 +119,11 @@
  - [Contentful](https://www.contentful.com/)
  - [Buttercms](https://buttercms.com/)
 
-### CSS Animation Libraries
+### CMS - e-commerce
+- Saleor
+- Medusa
+
+### CSS Animation Libraries CSS/SCSS/Less
 - [animista](https://animista.net/)
 - [animate](https://animate.style/)
 - [css animation](http://cssanimation.io/)
@@ -123,5 +166,18 @@ COPY
 "c:\Windows\System32\python37.dll"
 ```
 
+```
+New-EventLog -LogName Application -Source "APPNAME"
+```
+
+```
+ArgumentNullException.ThrowIfNull();
+
+JsonConvert.DeserializeObject<MyClass>(await response.Content.ReadAsStringAsync())
+```
+
 ### buzzwords
 Micro-service oriented programming skills
+DDD, Clean Code, SOLID, TDD, CQRS
+MACH principle (Microservice-based, API-first, Cloud-native, and Headless)
+Design Patterns, Agile/ Scrum and Kanban
