@@ -6,3 +6,4 @@ https://justjoin.it/offers/loansnap-blockchain-engineer-new-york
 https://justjoin.it/remote/net?sort=salary
 https://justjoin.it/offers/clickup-sr-or-lead-or-principal-backend-engineer
 https://www.allstarsit.com/job-posts/net-developer-461
+https://justjoin.it/offers/kalepa-remote-senior-software-engineer
