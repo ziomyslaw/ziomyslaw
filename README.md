@@ -3,23 +3,25 @@
 - [DaVinci Resolve](https://www.blackmagicdesign.com/pl/products/davinciresolve/)
 
 ### Database
-- [RavenDB and Machine Learning](ravendb.net/learn/webinars/ravendb-and-machine-learning)
+- MS SQL
 - [DBeaver](https://dbeaver.io/)
 - MongoDB
 - Redis
-- Elastic
+- ElasticSearch
 - [RavenDB - ACID NoSQL Document Database](https://ravendb.net/)
+- [RavenDB and Machine Learning](ravendb.net/learn/webinars/ravendb-and-machine-learning)
 - [Marten - .NET Transactional Document DB and Event Store on PostgreSQL](https://martendb.io/) 
 - InfluxDB
 - PostgreSQL
 - tspdb [prerequisites](https://tspdb.mit.edu/installation/#prerequisites-postgresql-and-plpython_1)
 - cosmos db emulator
-
+- EF core 
 
 ### Message Broker
  - Kafka (+ ActiveMQ, Solice) 
  - RabbitMQ via [EasyNetQ](https://easynetq.com/), [MassTransit](https://masstransit-project.com)
  - Azure Service Bus
+ - webspheremq
 
 ### Libs
  - Swagger
@@ -27,6 +29,13 @@
  - [Flurl](https://flurl.dev/)
  - AutoMapper
  - RestSharp, [Refit](https://github.com/reactiveui/refit)
+
+ 
+### Docker, 
+ - Kubernetess, k3s
+ - terraform - longhorn
+ - Rancher - container management platform
+ - Portainer: Container Management
 
 ### Test
  - FluentAssertions
@@ -39,6 +48,12 @@
  - MSTest 2
  - Selenium, 
  - Playwright `pwsh bin\Debug\netX\playwright.ps1 install`
+ 
+ ### Azure
+- Azure WebApp
+- Azue Media Services
+- Event Grid
+- Storage
 
 ### .Net
 - https://benfoster.io/blog/mvc-to-minimal-apis-aspnet-6/
@@ -93,6 +108,7 @@
 - Angular RxJs
 - React/Next.js [ISG](https://nextjs.org/docs/basic-features/data-fetching/incremental-static-regeneration)
 - Node.js/NestJs
+- Flutter
 - Meteor
 - GraphQ [Hasura](https://hasura.io/), [Apollo] (https://www.apollographql.com/docs/react/data/subscriptions/)
 - axios, fetch - http client
@@ -157,6 +173,12 @@ console.log(id.toString());
 ```
 
 ```
+npm config set proxy http://proxy.pl:80/
+npm config set https-proxy http://proxy.pl:80/
+npm config set strict-ssl false
+```
+
+```
 setx PATH "c:\edb\languagepack\v1\Python-3.7;%PATH%"
 setx PATH "c:\Program Files\PostgreSQL\12\bin;%PATH%"
 setx PATH "c:\edb\languagepack\v1\Python-3.7\Scripts;%PATH%"
@@ -173,6 +195,8 @@ New-EventLog -LogName Application -Source "APPNAME"
 
 sc.exe delete AppNAME
 sc.exe create AppNAME binpath= "D:\App.exe" start= auto
+
+CAST(([AskTimestampUtcTicks] - 599266080000000000) / 10000000 / 24 / 60 / 60 AS datetime) as TimeDay
 ```
 
 ```
@@ -233,6 +257,15 @@ Design Patterns, Agile/ Scrum and Kanban
 sklepiko.com
 
 ### E-commerce
+product
+category
+discount
+order (details + items)
+user
+shipping details
+payment details
+cart items
+
 Carts
 Customers
 Checkout
