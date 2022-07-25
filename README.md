@@ -36,7 +36,7 @@
  - NUnit 
  - MSTest 2
  - Selenium, 
- - Playwright 
+ - Playwright `pwsh bin\Debug\netX\playwright.ps1 install`
 
 ### .Net
 - [record](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record)
