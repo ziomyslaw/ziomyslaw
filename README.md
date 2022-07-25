@@ -168,6 +168,9 @@ COPY
 
 ```
 New-EventLog -LogName Application -Source "APPNAME"
+
+sc.exe delete AppNAME
+sc.exe create AppNAME binpath= "D:\App.exe" start= auto
 ```
 
 ```
@@ -176,8 +179,116 @@ ArgumentNullException.ThrowIfNull();
 JsonConvert.DeserializeObject<MyClass>(await response.Content.ReadAsStringAsync())
 ```
 
+```
+import * as React from "react";
+import { ClientTest } from "~/components/chart.client"; //components/chart.client.tsx
+
+export default function Index() {
+  const [mounted, setMounted] = React.useState(false);
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+  return <div className="remix__page">{mounted ? <ClientTest /> : null}</div>;
+}
+
+<link rel="import" type="application/json" href="users2.json" />
+
+
+<Suspense fallback={<Loading/>}>
+    <Component data={data}/>
+</Suspense>
+
+
+import posts from '../../posts.json'
+
+const Post = props => {
+  return (
+    <div>
+      <h1>{props.post.title}</h1>
+      <p>Published on {props.date}</p>
+      <p>{props.post.content}</p>
+    </div>
+  )
+}
+
+Post.getInitialProps = async ({ query }) => {
+  const moment = (await import('moment')).default()
+  return {
+    date: moment.format('dddd D MMMM YYYY'),
+    post: posts[query.id]
+  }
+}
+
+export default Post
+
+```
+
 ### buzzwords
 Micro-service oriented programming skills
 DDD, Clean Code, SOLID, TDD, CQRS
 MACH principle (Microservice-based, API-first, Cloud-native, and Headless)
 Design Patterns, Agile/ Scrum and Kanban
+sklepiko.com
+
+### E-commerce
+Carts
+Customers
+Checkout
+Discounts
+Orders
+Products
+Reporting
+Storefront
+Subscription
+Developers
+RefreshTokens
+Users
+B2C	
+Multi-store	
+Multi-vendor marketplace		
+B2B
+Admin users
+Role-based permissions
+Multi-currency
+Guest checkout
+Manual order creation
+Post-sale order editing
+Coupons
+Gift cards
+Abandoned cart recovery
+Storewide promotions & discount rules
+Bulk coupon generation
+Saved credit cards
+Payment processing with Stripe, PayPal, Amazon Pay
+Standard products
+Subscription products
+Options per product
+Variants per product
+Categories & sub-categories
+Custom product attributes
+Variant-specific images
+Cross-sells & upsells
+Stock inventory and history
+Product bundling
+Bulk price rules
+Shipping price rules
+International pricing
+backend API
+Headless storefront
+Self-hosted storefronts
+Visual theme editor
+Drag & drop menu editor
+Hosted checkout
+Checkout API
+Webhooks
+Media CDN with image transforms
+
+
+
+### CandlesStick patterns
+- Money Flow Index (MFI)
+- Stochastic Relative Strenth Index (RSI)
+- Commodity Channel Index (CCI)
+- Moving Average Convergence Divergence (MACD)
+- Volume & Volume Weigheted Average Price (VWAP)
+- Candle Stick Patterns by Weight
