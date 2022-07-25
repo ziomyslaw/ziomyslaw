@@ -5,6 +5,15 @@
 ### Database
 - [RavenDB and Machine Learning](ravendb.net/learn/webinars/ravendb-and-machine-learning)
 - [DBeaver](https://dbeaver.io/)
+- MongoDB
+- Redis
+- Elastic
+- [RavenDB - ACID NoSQL Document Database](https://ravendb.net/)
+- [Marten - .NET Transactional Document DB and Event Store on PostgreSQL](https://martendb.io/)
+
+### Message Broker
+ - kafka, 
+ - RabbitMQ via [EasyNetQ](https://easynetq.com/), [MassTransit](https://masstransit-project.com)
 
 ### .Net
 - [record](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record)
@@ -101,3 +110,18 @@ import { ObjectID } from 'bson';
 const id  = new ObjectID(); 
 console.log(id.toString()); 
 ```
+
+```
+setx PATH "c:\edb\languagepack\v1\Python-3.7;%PATH%"
+setx PATH "c:\Program Files\PostgreSQL\12\bin;%PATH%"
+setx PATH "c:\edb\languagepack\v1\Python-3.7\Scripts;%PATH%"
+
+setx PYTHONHOME "c:\edb\languagepack\v1\Python-3.7"
+COPY 
+
+"c:\edb\languagepack\v1\Python-3.7\python37.dll"
+"c:\Windows\System32\python37.dll"
+```
+
+### buzzwords
+Micro-service oriented programming skills
