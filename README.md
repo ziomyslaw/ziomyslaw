@@ -12,7 +12,7 @@
 - [Marten - .NET Transactional Document DB and Event Store on PostgreSQL](https://martendb.io/)
 - InfluxDB
 - PostgreSQL
-- tspdb
+- tspdb [prerequisites](https://tspdb.mit.edu/installation/#prerequisites-postgresql-and-plpython_1)
 - cosmos db emulator
 
 
@@ -88,12 +88,11 @@
 
 ### JavaScript, TypeScript, HTML5, CSS3/LESS/SCSS
 - Angular RxJs
-- React/Next.js
+- React/Next.js [ISG](https://nextjs.org/docs/basic-features/data-fetching/incremental-static-regeneration)
 - Node.js/NestJs
 - Meteor
-- GraphQ
-- axios
-- Apollo-Client
+- GraphQ [Hasura](https://hasura.io/), [Apollo] (https://www.apollographql.com/docs/react/data/subscriptions/)
+- axios, fetch - http client
 - prisma - ORM
 - Bootstrap, Material UI, Tailwind, Styled-Components
 - Saleor/Medusa, Strapi
