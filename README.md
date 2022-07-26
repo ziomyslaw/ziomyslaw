@@ -165,6 +165,9 @@
 - [discourse](https://github.com/discourse/discourse)
 - https://react.semantic-ui.com/
 
+### Web technologies: Angular, RxJs, React, Next.js, Node.js, NestJs, Strapi, Saleor, 
+### CSS3/LESS/SCSS, GraphQ, Bootstrap, Material UI, Tailwind, Styled-Components, Semantic UI
+
 ```
 npm install --save bson 
 import { ObjectID } from 'bson';
