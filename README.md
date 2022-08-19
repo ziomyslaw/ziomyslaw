@@ -66,6 +66,7 @@
 - [File Upload in ASP.NET Core MVC](https://code-maze.com/file-upload-aspnetcore-mvc/)
 - [Login - Jwt. Identity, Facebook](https://fullstackmark.com/post/13/jwt-authentication-with-aspnet-core-2-web-api-angular-5-net-core-identity-and-facebook-login)
 - [SimplCommerce](https://github.com/simplcommerce/SimplCommerce/blob/master/src/Modules/SimplCommerce.Module.Orders/Services/OrderService.cs)
+- https://benfoster.io/blog/mvc-to-minimal-apis-aspnet-6/
 
 #### Serializers
 ##### Complex class
