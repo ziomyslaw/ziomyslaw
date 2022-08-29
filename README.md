@@ -59,7 +59,6 @@
 - https://benfoster.io/blog/mvc-to-minimal-apis-aspnet-6/
 - [record](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record)
 - [property pattern](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#property-pattern)
-- [integration tests in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-5.0)
 - [serilog](https://github.com/datalust/dotnet6-serilog-example)
 - [OpenStack](https://github.com/openstacknetsdk/openstack.net/wiki/Getting-Started-With-The-OpenStack-NET-SDK)
 - [OpenStack - ObjectStorage](https://github.com/openstacknetsdk/openstack.net/blob/master/src/Samples/CSharpCodeSamples/ObjectStorageProviderExamples.cs)
@@ -67,6 +66,13 @@
 - [Login - Jwt. Identity, Facebook](https://fullstackmark.com/post/13/jwt-authentication-with-aspnet-core-2-web-api-angular-5-net-core-identity-and-facebook-login)
 - [SimplCommerce](https://github.com/simplcommerce/SimplCommerce/blob/master/src/Modules/SimplCommerce.Module.Orders/Services/OrderService.cs)
 - https://benfoster.io/blog/mvc-to-minimal-apis-aspnet-6/
+
+### .Net Testing
+- [integration tests in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-5.0)
+- [Unit test controller logic in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-6.0)
+- [How to test your C# Web API](https://timdeschryver.dev/blog/how-to-test-your-csharp-web-api#a-simple-test)
+- https://blog.elmah.io/moq-vs-nsubstitute-vs-fakeiteasy-which-one-to-choose/
+- https://lee-jdale.medium.com/testing-in-net-with-webapplicationfactory-including-minimal-apis-ddcb4ed0aef5
 
 #### Serializers
 ##### Complex class
