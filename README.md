@@ -216,6 +216,11 @@ JsonConvert.DeserializeObject<MyClass>(await response.Content.ReadAsStringAsync(
 ```
 
 ```
+var items = [].Select(i => i).ToList();
+var items = [].ConvertAll(i => i);
+```
+
+```
 import * as React from "react";
 import { ClientTest } from "~/components/chart.client"; //components/chart.client.tsx
 
